@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+}
+@font-face {
+    font-family: helvetica neue;
+    src: url(images/Helvetica-Neue-Font/Helvetica\ Neue\ LTW0697BlkCnObl/);
+}
+.outerflex{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-content: center;
+    background-color: #e3efff;
+
+}
+ 
+.innerflex{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 0;
+    max-width: 1200px;
+    background-color: #e3efff ;
+  
+}
+
+li.heading{
+    color:#10136b;
+    font-size: 30px;
+    padding: 0 60px 0 0;
+  
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    font-family: helvetica neue; 
+ }
+ 
+.blue{
+padding: 10px 25px;
+font:13px;
+color:azure;
+background-color: #10136b;
+border-radius: 3px;
+border:none;
+font-family: helvetica neue;
+}
+.blue:hover{
+    background-color: #6db6fd;
+    cursor: pointer;
+}
+.white{
+    padding:10px 25px;
+    font-size:13px;
+    background-color: rgb(255, 255, 255);
+    color:#717a8f;
+    border-radius:3px;
+    font-family: helvetica neue;
+    border:solid #eee 1px;
+}
